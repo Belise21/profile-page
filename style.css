@@ -1,0 +1,101 @@
+/* Basic reset (removes default spacing) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background + general font */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+/* Main container that holds everything */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Header area */
+.header {
+  text-align: center;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+
+/* Profile image */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  .avatar {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+}
+
+/* Name styling */
+.name {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+/* Small sentence under name */
+.tagline {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Cards for each section */
+.card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+/* Titles inside cards */
+.card h2 {
+  margin-bottom: 10px;
+}
+
+/* Skills list */
+.skills {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background: #e8eefc;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Links */
+a {
+  color: #2a5bd7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  margin-top: 10px;
+}
